@@ -1,36 +1,24 @@
-# Welcome to Remix + Vite!
+# Remix + Vite Starter Template
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+👋 Welcome to my starter template for Remix + Vite.
 
-## Development
+## Stack
 
-Run the Vite dev server:
+- Remix 2.9.x
+- Vite 5.2.x
+- Tailwind 3.x
+- Shadcn components
+- MSW 2.x
+- [`ky`](https://npm.im/ky) for fetch middleware
 
-```shellscript
-npm run dev
-```
+### Why MSW?
 
-## Deployment
+Sometimes Remix is used as a BFF (backend for frontend) and the integration us making REST/GraphQL calls to a backend. MSW allows folks to mock backend calls and no rely on a deployed backend to write code or to test.
 
-First, build your app for production:
+## Extras
 
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+- Routes defined as an `enum`
+- `fetch` utils to add request ids, deal with header merging, and other goodies
+- defined patterns for clients (e.g. redis, memcached)
+- Login and account creation pages for free with cookie-based session management 🤑
+- A flexible session manager

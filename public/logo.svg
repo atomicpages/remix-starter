@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768">
+  <g
+    style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle">
+    <path fill="#96c2a8" d="M387.43-7.056v-43.2h-8.064V0h23.256v-7.056z"
+      style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+      transform="matrix(1.58 0 0 1.58 -336.454 423.702)" />
+    <path fill="#a9bca5"
+      d="m454.847 0-21.456-44.712-4.104-8.424L403.8 0h8.064l4.32-8.928-4.536-3.312h29.232L446.783 0zm-33.696-19.296 8.136-17.064 8.208 17.064z"
+      style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+      transform="matrix(1.58 0 0 1.58 -320.654 423.702)" />
+    <path fill="#bcb5a2"
+      d="M476.624.648c13.32 0 19.296-9.432 19.296-18.072v-32.832h-8.136v31.968c0 8.568-5.616 11.952-11.16 11.952-5.544 0-11.16-3.384-11.16-11.952v-31.968H457.4v32.832c0 8.64 5.904 18.072 19.224 18.072z"
+      style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+      transform="matrix(1.58 0 0 1.58 -304.854 423.702)" />
+    <path fill="#cfaf9f"
+      d="M542.594-50.256v35.064l-34.488-35.064-2.808-2.88V0h8.064v-35.064L547.778 0l2.88 2.88v-53.136z"
+      style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+      transform="matrix(1.58 0 0 1.58 -289.054 423.702)" />
+    <path fill="#e2a89c"
+      d="M558.256-25.128C558.256-10.872 570.28.72 585.184.72c5.04 0 9.72-1.368 13.68-3.672v-9.216c-3.456 3.6-8.28 5.832-13.68 5.832-10.512 0-19.008-8.424-19.008-18.792 0-10.368 8.496-18.792 19.008-18.792 5.4 0 10.224 2.232 13.68 5.832v-9.216a27.15 27.15 0 0 0-13.68-3.672c-14.904 0-26.928 11.592-26.928 25.848z"
+      style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+      transform="matrix(1.58 0 0 1.58 -273.254 423.702)" />
+    <path fill="#f5a299"
+      d="M644.626-50.256h-8.064v19.728h-21.6v-19.728h-8.064V0h8.064v-19.656l-5.184-3.816h26.784V0h8.064z"
+      style="font-style:normal;font-weight:400;font-size:72px;line-height:1;font-family:&quot;Brandmark Sans 15&quot;;font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+      transform="matrix(1.58 0 0 1.58 -257.454 423.702)" />
+  </g>
+</svg>
