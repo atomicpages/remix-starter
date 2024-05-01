@@ -1,10 +1,10 @@
-import {
-  Button as BaseButton,
-  ButtonProps as BaseButtonProps,
-} from "@/components/ui/button";
-import { cx } from "class-variance-authority";
 import { forwardRef } from "react";
+
+import { cx } from "class-variance-authority";
 import { LoaderCircle } from "lucide-react";
+
+import { Button as BaseButton } from "@/components/ui/button";
+import type { ButtonProps as BaseButtonProps } from "@/components/ui/button";
 
 export type ButtonProps = BaseButtonProps & {
   loading?: boolean;

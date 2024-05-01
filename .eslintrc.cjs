@@ -17,5 +17,8 @@ module.exports = {
     "@djthoms/eslint-config/react",
     "@djthoms/eslint-config/react-typescript",
     "@djthoms/eslint-config/vitest",
-  ]
+  ],
+  parserOptions: {
+    project: "./tsconfig.json",
+  },
 };

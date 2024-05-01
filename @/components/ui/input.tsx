@@ -2,11 +2,10 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 
-export interface InputProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {
+export type InputProps = {
   beforeIcon?: React.ReactNode;
   afterIcon?: React.ReactNode;
-}
+} & React.InputHTMLAttributes<HTMLInputElement>;
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, beforeIcon, afterIcon, ...props }, ref) => {

@@ -1,11 +1,11 @@
-import {
-  Input as BaseInput,
-  InputProps as BaseInputProps,
-} from "@/components/ui/input";
-import { cx } from "class-variance-authority";
-import { Label } from "@/components/ui/label";
 import { forwardRef, useId } from "react";
-import { AriaProps } from "~/typings/aria";
+
+import { cx } from "class-variance-authority";
+
+import type { InputProps as BaseInputProps } from "@/components/ui/input";
+import { Input as BaseInput } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import type { AriaProps } from "~/typings/aria";
 
 export type InputProps = AriaProps<BaseInputProps> & {
   error?: boolean;

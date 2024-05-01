@@ -1,13 +1,16 @@
-import { Form, Link } from "@remix-run/react";
-import { TwoPanel } from "../_auth.login/TwoPanel";
-import { Input } from "~/components/input";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
-import { createAccountSchema } from "./schema";
-import { Button } from "~/components/button";
-import { Routes } from "~/routes";
+
 import { zodResolver } from "@hookform/resolvers/zod";
+import { Form, Link } from "@remix-run/react";
+import type { z } from "zod";
+
+import { Button } from "~/components/button";
+import { Input } from "~/components/input";
 import { PasswordInput } from "~/components/password";
+import { Routes } from "~/routes";
+
+import { createAccountSchema } from "./schema";
+import { TwoPanel } from "../_auth.login/TwoPanel";
 
 type FormData = z.infer<typeof createAccountSchema>;
 
